@@ -1,0 +1,12 @@
+{
+    "Dacia": "Sarmizegetusa",
+    "SPQR": "Roma",
+    "Cartagina": "Cartagina",
+    "Europe": true,
+    "Barbarians": null,
+    "Soldiers": {
+        "SPQR": "Legionnaire",
+        "Cartagina": "Mercenary",
+        "Dacia": "Falx"
+    }
+}

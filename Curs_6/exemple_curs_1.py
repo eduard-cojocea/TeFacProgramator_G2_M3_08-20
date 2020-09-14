@@ -1,0 +1,10 @@
+filename = "scipio.txt"
+my_file = open(filename, "r")
+print("The file {} is closed? {}".format(filename, my_file.closed))
+print("The file {} is opened in mode: {}".format(filename, my_file.mode))
+print("The file {} has the name: {} ".format(filename, my_file.name))
+my_file.close()
+print("*"*100)
+print("The file {} is closed? {}".format(filename, my_file.closed))
+print("The file {} is opened in mode: {}".format(filename, my_file.mode))
+print("The file {} has the name: {} ".format(filename, my_file.name))
